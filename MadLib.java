@@ -41,7 +41,11 @@ public class MadLib{
 		System.out.println("and finally, enter the name of a famous person!");
 			Celeb = inputDevice.nextLine();
 			
-			System.out.println("Once, there was a/an " + Adjective1 + " " + Animal + " and his " + Adjective2 + " owner, " + Name + ". The owner, " + Name + ", thought his " + Animal + " was very " + Adjective3 +". \nThe " + Animal + " disagreed. The " + Animal + " thought he was very " + Adjective4+ ", " + Adjective5 + ", and " + Adjective6 + ". The " + Animal + " " + VerbEd1 + " the owner. \nThe owner had no idea the " + Animal + " could speak! The owner " + VerbEd2 + " out of his " + Noun + " in amazement!\n\"Yeah, I can " + Verb + ".\" said the " + Animal + ".  \"Yeah\" said the owner. \"You " + Verb + " just like " + Celeb + "!");
+			System.out.println("Once, there was a/an " + Adjective1 + " " + Animal + " and his " + Adjective2 + " owner, " + Name + ". The owner,");
+			System.out.println(Name + ", thought his " + Animal + " was very " + Adjective3 +". \nThe " + Animal + " disagreed. The " + Animal + " thought he was very "); 
+			System.out.println(Adjective4+  ", " + Adjective5 + ", and " + Adjective6 + ". The " + Animal + " " + VerbEd1 + " the owner. The owner had no idea");
+			System.out.println("that the " + Animal + " could speak! The owner " + VerbEd2 + " out of his " + Noun + " in amazement!\n\"Yeah, I can " + Verb + ".\"");
+			System.out.println("said the " + Animal + ".  \"Yeah\" said the owner. \"You " + Verb + " just like " + Celeb + "!");
 			
 	}
 }
